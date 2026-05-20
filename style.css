@@ -300,6 +300,12 @@ transform:rotate(45deg) translateY(8px);
 @media (max-width: 548px) {
     .burger {
         display: flex;
+        margin: 10px;
+    }
+    .l1, .l2, .l3 {
+        width: 100px;
+        height: 50px;
+        color: yellowgreen
     }
     header {
         font-size: 20px;
