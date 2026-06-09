@@ -20,7 +20,6 @@ header{
 body{
     background-image: url('Russian-T-34-Tank.jpg');
     background-size: cover;
-    height: 100vh;
 }
 h1{
     color: yellowgreen;
@@ -89,7 +88,7 @@ a:hover{
   color: white;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: pointer; 
   display: none;
   z-index: 1000;
 }
@@ -175,9 +174,8 @@ a:hover{
     }
     header {
         font-size: 20px;
-        padding: 8px 0;
-        margin: 5px;
         height: 100vh;
+        border-radius: 0;
     }
     ul {
         font-size: 24px;
